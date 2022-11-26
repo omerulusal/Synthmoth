@@ -1,0 +1,372 @@
+body {
+    background-color: antiquewhite;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: darkred;
+}
+
+h2 {
+    font-size: 32px;
+    color: darkred;
+    text-align: center;
+}
+
+h3 {
+    font-size: 24px;
+    color: darkblue;
+}
+
+header {
+    background-image: url(../img/);
+    background-color: #FAEBD7;
+    margin-bottom: 250px;
+}
+
+.container {
+    margin: 0 auto;
+
+}
+
+.header-content {
+    margin-top: 120px;
+    animation: text_animation 1s .3s backwards;
+}
+@keyframes text_animation {
+    0%{
+        opacity: 0;
+        transform: scale(0);
+    }
+}
+.header-top .logo a {
+    margin-left: 0px;
+    display: inline-block;
+    padding-top: 10px;
+    padding-right: 400px;
+}
+
+.header-top .nav-menu {
+    padding-top: 0px;
+    text-align: end;
+    display: inline-block;
+    margin-left: 300px;
+}
+
+.header-content p {
+    color: firebrick;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.header-content .main-btn {
+    text-decoration: none;
+    position: relative;
+    text-align: left;
+    font-weight: 400;
+    color: white;
+    background-color: firebrick;
+    padding: 7px 14px;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+    transition: .5s ease-in-out;
+
+}
+
+.header-content .main-btn:hover {
+    background-color: rgb(234, 0, 0);
+}
+
+.btn-buy {
+    color: black;
+    border-radius: 3px;
+    font-size: larger;
+    text-decoration: none;
+    font-weight: 400;
+    background-color: rgba(175, 172, 124, 0.219);
+    padding: 7px 14px;
+    letter-spacing: 1px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+}
+
+.btn-buy:hover {
+    color: firebrick;
+    transition: .3s ease-in-out;
+}
+
+.p-buy {
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+.logo img {
+    display: inline-block;
+    width: 40%;
+}
+
+.nav-menu ul li {
+    list-style: none;
+    display: inline;
+    padding-right: 0px;
+}
+
+.nav-menu ul li a {
+    padding: 12px 12px;
+    border-radius: 12px;
+    text-decoration: none;
+    color: black;
+    margin-left: 25px;
+    position: relative;
+}
+
+.nav-menu ul li a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    width: 0%;
+    height: 2px;
+    transform: scale(0);
+    transition: .5s ease-in-out;
+    width: 100%;
+}
+
+.nav-menu ul li a:hover::before {
+    transform: scale(1);
+}
+
+.nav-menu ul li a:hover {
+    padding: 12px 12px;
+    border-radius: 12px;
+    transition: ease .3s;
+    color: black;
+}
+
+
+.hr-top {
+    padding: 0px;
+    color: black;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.col2-1 {
+    flex: 6;
+    animation: colo 1s .3s backwards;
+    transition: ease-in-out;
+}
+@keyframes colo {
+    0%{
+        opacity: 0;
+    }
+}
+
+.container .row .col2-1 .daws {
+    max-width: 100%;
+}
+
+.col1-1 .mkl {
+    font-size: 14px;
+    margin-left: 50%;
+}
+
+.col1-1 h2 {
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.col1-1 h3 {
+    font-size: 18px;
+    font-weight: lighter;
+
+}
+
+.col1-1 .date {
+    text-align: left;
+    margin-left: 32%;
+    font-style: italic;
+    font-size: medium;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+.col1-1 img {
+    margin-top: -20px;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    float: left;
+    margin-bottom: 10px;
+
+
+}
+
+.row .hr-son {
+    padding: 0px;
+    margin: 0px 0px 20px 0px;
+    width: 98%;
+    height: .5px;
+}
+
+.row .bck-home {
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: firebrick;
+    margin-bottom: 20px;
+    background-color: rgba(175, 172, 124, 0.219);
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.row .bck-home:hover {
+    background-color: firebrick;
+    color: white;
+}
+
+
+form textarea {
+    background-color: rgba(0, 0, 0, 0.20);
+    border: 3px solid rgba(0, 0, 0, 0.75);
+}
+
+footer {
+    background-color: rgba(179, 18, 18, 0.818);
+    margin-top: 50px;
+}
+
+footer .row .col2-1 h4 {
+    color: black;
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    width: 50%;
+    height: auto;
+    margin-bottom: 0px;
+    margin-top: 40px;
+}
+
+footer .row .col2-1 p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: whitesmoke;
+}
+
+footer .row .col2-1 form textarea {
+    background-color: white;
+    width: 52.5%;
+    height: 70px;
+    color: white;
+    resize: none;
+}
+
+form .Name-Surname input {
+
+    background-color: white;
+    margin-bottom:1px;
+    width: 150%;
+}
+
+form .Name-Surname input:focus {
+    border-bottom: 3px solid #FAEBD7;
+}
+
+form .mail input:focus {
+    border-bottom: 3px solid #FAEBD7;
+}
+
+form .mail input {
+    background-color: white;
+    margin-bottom:1px;
+    width: 52.5%;
+}
+
+.col2-1 .info a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    position: relative;
+}
+
+.col2-1 .info a::before {
+    content: '';
+    /*Boş içerik verdim çünkü şekillendirme yapacağım*/
+    position: absolute;
+    bottom: 0;
+    /*Çizginin alttan ilerlemesini istedim.*/
+    background-color: #000;
+    height: 2px;
+    transform: scale(0);
+    /*Boyutu 0 yapıp gizledim*/
+    transition: .5s ease;
+    width: 100%;
+}
+
+.col2-1 .info a:hover::before {
+    transform: scale(1);
+    /*Gizlediğim boyutu eski haline getirdim*/
+}
+
+.col2-1 .info a:hover {
+    color: #FAEBD7;
+}
+
+.col2-1 .social-links{
+    margin-right: 350px;
+}
+
+.social-links .social {
+    list-style: none;
+    display: inline-block;
+}
+
+.social-links .social a img{
+    margin-left: 10px;
+    padding: 10px 10px;
+    transition: .5s ease-in-out;
+}
+.social-links .social a img:hover{
+    /* background-color: #faebd77b; */
+    border-radius: 5px;
+    transform: translateY(-5px);
+    background-color: rgb(159, 0, 0);
+}
+
+form .form-btn{
+    padding: 3px 10px;
+    margin-right: 200px;
+    background-color: #FAEBD7;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.copyright{
+    text-align: center;
+    margin-bottom: 0px;
+    color: white;
+}
+
+.sabit{
+    background-color: hsl(0, 49%, 45%);
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    letter-spacing: 1px;
+    float: right;
+    display: block;
+}

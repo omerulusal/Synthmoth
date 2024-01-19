@@ -1,3 +1,3 @@
-# Synthmoth
+# ScreenShot
 
-![synthmoth](https://user-images.githubusercontent.com/96357374/224403490-df6385b7-6587-4e53-889d-b8fc426be3ef.png)
+<img width="839" alt="1" src="https://github.com/omerulusal/Synthmoth/assets/96357374/fb62c0e9-5ff5-4fb7-b61a-238079b521a6">
